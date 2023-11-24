@@ -1,0 +1,63 @@
+@import './blocks/colors';
+
+
+body {
+    background-color: rgb(60, 60, 156);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: orange;
+}
+
+.none {
+    display: none;
+}
+
+.Eteh-a-sketch {
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+}
+
+.app-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.app-block-options {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choseSize {
+}
+
+.map {
+    border-spacing: 0px;
+    border-collapse: collapse;
+
+    background-color: #fff;
+
+    margin: 0 auto;
+
+    text-align: center;
+    
+    td {
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+    }
+}
+
+select {
+    background-color: rgb(60, 60, 156);
+}

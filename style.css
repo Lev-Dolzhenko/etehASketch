@@ -1,0 +1,72 @@
+.color-black {
+  background-color: black;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-red {
+  background-color: red;
+}
+
+body {
+  background-color: rgb(60, 60, 156);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: orange;
+}
+
+.none {
+  display: none;
+}
+
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 300px;
+}
+
+.app-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 20px;
+}
+
+.app-block-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.map {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+.map td {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+}
+
+select {
+  background-color: rgb(60, 60, 156);
+}
